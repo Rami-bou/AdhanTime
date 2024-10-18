@@ -1,0 +1,48 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+
+.city-name {
+    text-align: center;
+    background-color: lightblue;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.adhan-times {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.time {
+    font-size: 20px;
+    width: 170px;
+    height: 180px;
+    position: relative;
+    border: 4px solid  black;
+}
+
+.today {
+    position: absolute;
+    bottom: 540px;
+    left: 50px;
+    font-size: 30px;
+}
+
+ select {
+    width: 300px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: none;
+    background-color: lightblue;
+    
+ }

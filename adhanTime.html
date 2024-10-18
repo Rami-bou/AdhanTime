@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al adhan</title>
+    <link rel="stylesheet" href="styles/adhanTime.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center; font-style: italic; font-size: 60px;">Adhan Time</h1>
+        <div class="city-name">
+            <select class="city" onchange=" return userClick()">
+                <option>Setif</option>
+                <option>Algeries</option>
+                <option>Batna</option>
+                <option>Annaba</option>
+            </select>
+            <div class="today" style="font-weight: 800;"></div>
+        </div>
+        <div class="adhan-times" style="justify-content: space-between;"></div>
+    </div>
+</body>
+<script src="scripts/adhanTime.js"></script>
+</html>
